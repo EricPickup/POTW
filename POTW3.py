@@ -26,6 +26,23 @@
 #number of posts that meet this criteria for user u. Each line contains a post y that meets said criteria. Assume that there will always be at 
 #least one post to be returned. 
 
+#Example:
+#Sample input 				Sample Output:
+#5							10
+#4 3
+#1 2
+#1 3
+#1 4
+#5 6
+#6
+#2 10 1
+#3 10 1
+#4 10 1
+#2 11 -1
+#3 12 -1
+#4 11 1
+#1 3
+
 from collections import defaultdict
 
 numPairs = int(input())
